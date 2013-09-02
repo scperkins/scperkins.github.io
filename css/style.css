@@ -17,10 +17,6 @@ body {
   text-align: center;
 }
 
-.bs-header {
-	background-image: url("DSC_0513.JPG");
-}
-
 .navbar-inverse {
   background-color: #005580;
   /*border-color: white;*/
@@ -31,6 +27,16 @@ body {
 .navbar-inverse .navbar-brand {
 	color: white;
 }
+
+.bs-header {
+  background-image: url("/img/banner5.jpg");
+  height: 300px;
+}
+
+/*.bs-header .img {
+  height: 300px;
+  width:  900px;
+}*/
 
 .blog-content {
   margin-top: 40px;
