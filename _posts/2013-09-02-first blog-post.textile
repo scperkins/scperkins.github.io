@@ -2,6 +2,7 @@
 layout: post
 title: First Actual Blog Post
 ---
+{{ page.title }}
 
 h3. I did it! (With a little help from my friend).
 

@@ -1,13 +1,3 @@
 ---
 layout: post
 ---
-{% for posit in site.posts %}
-	{% if forloop.index < page.full_posts %}
-	<div class="post">
-		<span>{{post.date | date_to_string}}</span>
-		<h1><a href="{{pst.url}}">{{post.title}}</a></h1>
-		<div>{{post.content}}</div>
-	</div>
-
-	{% endif %}
-{% endfor %}
