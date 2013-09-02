@@ -12,6 +12,11 @@ body {
   text-align: center;
 }
 
+.resume {
+  padding-top: 40px;
+  text-align: center;
+}
+
 .bs-header {
 	background-image: url("DSC_0513.JPG");
 }
@@ -25,6 +30,10 @@ body {
 
 .navbar-inverse .navbar-brand {
 	color: white;
+}
+
+.blog-content {
+  margin-top: 40px;
 }
 
 /* Wrapper for page content to push down footer */
