@@ -1,0 +1,15 @@
+---
+layout: post
+title: First Actual Blog Post
+---
+
+h3. I did it! (With a little help from my friend).
+
+So now that GitHub kindly lets users host their own personal and project pages,
+I decided I would finally put together one for myself. The process has mostly started from
+figuring out how to get the bare mininum going and has snowballed into incorporating Twitter
+Boootstrap 3 and making use of Jekyll to get this blog up and running. Thanks to "Ethan":http://github.com/EJEHardenberg I was able to get these blog posts to show up correctly.
+
+So here it is so far, and hopefully without much more time things will start looking better
+and start acting like a real site that I can show off to the world. But for now, it's 1 o'clock
+in the morning and I need to go to bed. Goodnight blog. I will see you tomorrow.
