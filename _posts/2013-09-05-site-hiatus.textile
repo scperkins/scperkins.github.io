@@ -1,0 +1,22 @@
+---
+layout: post
+title: Site Hiatus, New Computer, UEFI, Good 'ol Ubuntu and Xmonad
+---
+
+h3. {{ page.title }}
+
+*New Computer*
+On Tuesday, I received a a purchase I had made, which was a new Asus ZenBook Ultrabook. My other computer has been giving me problems
+of the worst kind (hardware). I should also note that I wanted to challenege myself and work with nothing but Linux, but with every distro I 
+installed, there was always something that didn't work. I ended up just leaving it with Xubuntu. Anyway, I did a lot of research into finding 
+a laptop that could reliably run some flavor of Linux. I've never had great luck with AMD/ATI configurations so I knew an Intel chipset was 
+what I was going with. I was also really attracted to the idea of having an ultrabook, but I *am* on a budget and ultrabooks don't run cheap.
+The result was this ZenBook I am now writing from.
+
+*UEFI*
+As you can imagine, I wanted my beloved alternative OS to the bloatware we call "Windows" to be on this computer. After all, that is one of the main reasons I got it, right? In my research for a new Ultrabook, I had to be weary of a new bios firmware called UEFI. I had heard bits and pieces about how this had been causing more headaches than usual for folks trying to install alternative operating systems on computers shipped 
+with Windows 8. In reality, UEFI has been on most (windows) computers manufactured since ~2009, but since the second half of 2012, many computers have shipped with UEFI containing a feature called 'secure boot' enabled by default. Without getting too deep into the details, a good
+rule-of-thumb is that if it came with Windows 7, it probably doesn't have secure boot enabled, if at all. If it came with Windows 8, it probably has secure boot enabled. In my case (and any case), all I had to make sure of was that I was installing GRUB on the same partition that the windows bootloader was installed on (which is the UEFI partition). Apparently some computers still have their Windows bootloaders installed on the 'legacy boot loader'. Confusing, right? Alas, all is well and my install of Ubuntu 13.04 works flawlessly. Everything works out of the box and I am a happy camper.
+
+*Xmonad*
+When I said I was a happy camper, I was happy that everything worked out of the box in Unity (desktop environment). However, I'm not the biggest fan of Unity. I installed XFCE and configured it as it was on my old computer but was discouraged to find that it lost some of the functionality and seemed to be rather unstable. I set out to find something else that was light, efficient and 
