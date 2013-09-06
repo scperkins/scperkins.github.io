@@ -2,6 +2,7 @@
 layout: post
 title: Building This Site (Part 1)
 ---
+h3. {{ page.title }}
 
 So as I mentioned before, I've pretty much been learning how to use GithUb pages and Jekyll
 as I go. Today I did spend a lot of time trying to just *make things work*. It's not that complicated, but when you're learning something new it can be frustrating; one moment everything 

@@ -1,10 +1,8 @@
 ---
 layout: post
-title: First Actual Blog Post
+title: I did it! (With a little help from my friend).
 ---
-{{ page.title }}
-
-h3. I did it! (With a little help from my friend).
+h3. {{ page.title }}
 
 So now that GitHub kindly lets users host their own personal and project pages,
 I decided I would finally put together one for myself. The process has mostly started from
