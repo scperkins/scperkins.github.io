@@ -8,11 +8,9 @@ comments: true
 		<div class='row'>
 			<div class='blog-content'>
 				<div class='col-xs-12 col-md-8'>
-					<h2>Posts</h2>
-					<h2>{{ post.title }}</h2>
-						<!--{% for post in site.posts limit: 3 %} -->
-						{{ post.content }}
-						<!-- {% endfor %} -->
+					<span class='date'>{{page.date | date_to_string}}</span>
+					  <h1><a href='{{page.url}}'>{{page.title}}</a></h1>
+					  <div>{{ content }}</div>
 
 				</div>
 			
