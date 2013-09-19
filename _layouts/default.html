@@ -3,12 +3,17 @@
 <head>
 	<title>{% if page.title %} {{ page.title }} | {% endif %} Sean Perkins</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name='keywords' content='sean'>
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap-lightbox.min.css">
   <!--favicon -->
   <link rel="icon" type="image/png" href="/tux.png" />
 	<!--<link href="starter-template.css" rel="stylesheet">
   <link href="sticky-footer.css" rel="stylesheet"> -->
   <link href="/css/style.css" rel="stylesheet">
+  <!-- jQuery -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  
 </head>
 <body>
 	
@@ -71,6 +76,9 @@
     ga('send', 'pageview');
 
     </script>
-
+    <!--lightbox -->
+    <script type="text/javascript">
+      $('#myLightbox').lightbox(options)
+    </script>
 </body>
 </html>
