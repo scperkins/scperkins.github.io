@@ -1,0 +1,9 @@
+---
+layout: post
+title: Incompatibility
+---
+
+h3. {{page.title}}
+
+I've started to add a few things to my project page (finally), but in doing so reminded myself of the problems surrounding the usage of bleeding-edge code, sepcifically Twitter Bootstrap 3. I don't even have a clue if anything on this site renders in IE (I know that's one of the points of Bootstrap, but seriously, why would you use IE anyway?). I wanted one of my projects to showcase some screenshots from a small project and decided it would be nice to use lightboxes to enlarge the thumbnails. The problem is that Bootstrap 3 has a lot of interferences and many plugins do not work with it without some nasty hacks. I finally just decided to use Bootstrap 3's modal component to work as lightboxes (that's pretty much what they are anyway). Still some bugs, but it works. 
+
