@@ -11,6 +11,45 @@ layout: default
 			<h4>Gmail Notifier [Currently ongoing]</h4>
 			<p>A simple program written in Python for Ubuntu that runs as a background process to check for Unread messages on the user's Gmail account. Using Google's atom feed, messages are collected and parsed. With the final version of the program I hope to incorporate Ubuntu's <a href="https://wiki.ubuntu.com/NotifyOSD">NotifyOSD</a> to display unread message titles and summaries. <a href="http://github.com/scperkins/gmail-Notify">Github link</a></p>
 
+			<a data-toggle="modal" href="#myModal3"><img src="/pics/noMail.png" class="img-thumbnail" height="140" width="140"></a>
+			<a data-toggle="modal" href="#myModal4"><img src="/pics/mail.png" class="img-thumbnail" height="140" width="140"></a>
+
+			<!-- Modal 3 -->
+			  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			          <h4 class="modal-title">No New Mail Notification</h4>
+			        </div>
+			        <div class="modal-body">
+			          <img src="/pics/noMail.png" class="img-responsive">
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+
+			  <!-- Modal 4 -->
+			  <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			          <h4 class="modal-title">You have mail!</h4>
+			        </div>
+			        <div class="modal-body">
+			          <img src="/pics/mail.png" class="img-responsive">
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div><!-- /.modal -->
+
 			<h4>Novelty Bubble Sort Script</h4>
 			<p>A Python script that generates user-specified-length array of random numbers. The array is witten to a text file, then read back in to the script and sorted using the bubble sort algorithm. When the algorithm is complete, it writes the sorted array to a new text file. <a href="http://github.com/scperkins/bubbleSort">Github link</a></p> 
 
