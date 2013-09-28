@@ -62,7 +62,7 @@ body {
 }
 
 .project {
-  border: 2px solid #a1a1a1;
+  border-top: 1.5px solid #a1a1a1;
   padding: 5px;
   border-radius: 5px;
   margin-bottom: 20px;
