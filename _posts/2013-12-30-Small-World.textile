@@ -2,8 +2,6 @@
 layout: post
 title: Some Thoughts on the Sudden Push to Teach Computer Science
 ---
-
-
 	
 I recently read an "article":http://www.whitehouse.gov/blog/2013/12/11/computer-science-everyone about the new "Hour of code" being taught in school. The goal is to bring Computer Science into middle schools and high schools so that kids get an earlier start at what is currently one of the most needed skills. First and foremost, I'm not against this notion. However, I'm a little annoyed at how the plan seems more like an under-thought marketing scheme. The first thing that gave me a tick was the phrasing in the title aformentioned article: "Computer science is for everyone". To be blunt, no, it is definitely not. Sure, anyone can learn at least the very fundamentals of computer science and programming, but that doesn't mean it's for *everyone*.   
 
