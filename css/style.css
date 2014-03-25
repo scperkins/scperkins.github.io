@@ -19,9 +19,15 @@ body {
   text-align: center;
 }
 
+#resumeButton {
+  margin: auto 50%;
+  margin-top: 40px;
+}
+
 .resume {
   padding-top: 40px;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 40px;
 }
 
 .navbar-inverse {
