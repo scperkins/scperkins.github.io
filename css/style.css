@@ -30,6 +30,11 @@ body {
   margin-bottom: 40px;
 }
 
+.error-page {
+  padding: 40px 15px 20px;
+  text-align: center;
+}
+
 .navbar-inverse {
   background-color: #005580;
   /*border-color: white;*/
