@@ -1,0 +1,19 @@
+---
+layout: post
+title: Installing lates node.js and npm on Ubuntu 13.10
+---
+
+h3. {{ page.title }}
+
+I had a litle bit of trouble figuring out how to install the _latest_ versions of node.js and npm on my
+Ubuntu 13.10 rig, so here are the commands I used:
+
+Node.js:
+<pre>~$ sudo apt-get install nodejs</pre>
+
+<pre>~$ sudo ln -s /usr/bin/nodejs /usr/bin/node</pre>
+
+npm:
+<pre>~$ curl https://npmjs.org/install.sh -L |sudo sh</pre>
+
+
