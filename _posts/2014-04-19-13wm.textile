@@ -1,0 +1,12 @@
+---
+layout: post
+title: Falling in love with i3 window manager
+---
+
+h3. {{page.title}}
+
+Recently I've taken to dumping desktop environments altogether and learning and configuring i3wm. To put it simply, i3 is a standalone window manager, so it has no deskop environment such as Unity, Gnome or KDE. It's also a _tiling_ window manager, meaning that windows conform to "containers", which are like subdivisions of an instance(s) of X11. The purpose is so that you, the user, can efficiently allocate space for program windows and allocate that space accordingly, and without ever having to take your fingers off the keyboard to drag windows around. To get a real sense of what I mean, you kind of have to see it for "yourself":/img/i3screen.png.
+
+When you fire up i3 for the first time, it doesn't look like much. Before you even start using it, you have to remember some basic keyboard commands involving what's called the 'mod key'. By default the mod key is the 'alt' key on most keyboards. The mod key is used in combination with other keys to perform certain window actions, such as navigating between open windows, closing windows, splitting/maximizing/organizing windows, and exiting the i3 session altogether to name a few. For instance, by default i3 lets you open your default terminal emulator by pressing mod+enter. You can arrange multiple windows on one screen in different arrangements, such as stacked, tabbed, split horizontally/vertically.
+
+As I mentioned, on first startup, there isn't much to i3. It comes with a setup wizard that lets you change your mod key to a different key such as the "windows key" (aka the "super" key). There is no physical desktop or wallpaper by default, but you can of course set a wallpaper to be used in the i3 config file. The i3 config file is where all of the commands and settings for your i3 sessions live. It's a lot like a markdown file, where you can define your many of your own customizations, everything from the colors and fonts of your i3bar (menu bar) and window decorations to startup applications and in which workspace they should be assigned to and how large the window is. You can think of the i3 config file like any other config file in *nix systems, it's essentially it's own sort of markdown that gets parsed by i3 and executed.
