@@ -5,34 +5,44 @@ layout: default
 <div id="wrap">
 	<div class="container">
 		<div class="home-content">
-			<p>For more, here's a link to <a href="https://github.com/scperkins?tab=repositories">My Github repo</a></p>
+			<p>For more, here's a link to <a href="https://github.com/scperkins?tab=repositories" target="_blank">My Github repo</a></p>
 		</div>
 		<div class="col-md-8">
 
 			<div class='project'>
+				<h4><a href="http://apps.xenonapps.com" target="_blank">Xenon Apps Wesbite</a></h4>
+				<p>Xenon Apps is a software startup created by a few friends and colleagues from my time as an undergraduate at UVM. I was offered the task of helping to design and create a professional quality website for the company and eagerly accepted. The site is statically-generated using <a href="http://harpjs.com" target="_blank">harp.js</a> with <a href="http://lesscss.org" target="_blank">LESS CSS</a> to create a fast, responsive and professional site. I carefully considered the layout, organization, and color scheme to create a page that was simple to use, yet elegant - qualities that represent all of the company's work.</p>
+			</div>
+
+			<div class='project'>
+				<h4>Machine-Bit (Name Pending)</h4>
+				<p>This is a simple, custom GUI tool for calculating chip loads, RPMs and feed rates for CNC machinery. It is written in Python and uses the GTK+3 graphics library. <a href="https://github.com/scperkins/Machine-Bit" target="_blank">Github Link</a></p>
+			</div>
+
+			<div class='project'>
 				<h4>Co-op Code</h4>
-				<p>This is a web application I started with <a href="ejehardenberg.github.io">Ethan Eldridge</a> in which visitors to the site are paired with each other to compete together to complete coding challenges. For example, users will be given the same task, such as completing a javascript function that multiplies its argument by two, and returns the result. However, both players must also function as a team, for they cannot move on the next challenege until both have solved the challenge, so if the other challenger cannot complete the task, the other challenger is permitted to help.</p>
+				<p>This is a web application I started with <a href="ejehardenberg.github.io" target="_blank">Ethan Eldridge</a> in which visitors to the site are paired with each other to compete together to complete coding challenges. For example, users will be given the same task, such as completing a javascript function that multiplies its argument by two, and returns the result. However, both players must also function as a team, for they cannot move on the next challenege until both have solved the challenge, so if the other challenger cannot complete the task, the other challenger is permitted to help.</p>
 
 				<p>The project uses PubNub to establish a connection between players, and prism.js for syntax highlighting </p>
 
-				<p>This project is currently on hiatus. <a href="https://github.com/EJEHardenberg/coop-code">Github Link</a></p>
+				<p>This project is currently on hiatus. <a href="https://github.com/EJEHardenberg/coop-code" target="_blank">Github Link</a></p>
 			</div>
 
 			<div class='project'>
 				<h4>School-Me -- Vermont Hackathon 2013</h4>
 				<p>Every year in October, tech and local businesses sponser a 24-hour "hackathon" in which local students and developers of all ages compete in teams to create an application
-					or website that benefits Vermont, using a set of provided APIs fro which to choose. I along with <a href="https://github.com">Ethan Eldridge</a>, <a href="https://github.com/smacewan101">Scott MacEwan</a> and <a href="https://github.com/primehunter326">Evan Yandell</a> set out to create a website called "School Me", a web application that allowed prospective Vermont residents to quickly examine data about Vermont schools, such as enrollment, graduataion rates, NECAP scores and more, all displayed within a google map with custom data filtration. <a href="https://github.com/smacewan101/School-Me">Github Link</a>
+					or website that benefits Vermont, using a set of provided APIs fro which to choose. I along with <a href="https://github.com">Ethan Eldridge</a>, <a href="https://github.com/smacewan101" target="_blank">Scott MacEwan</a> and <a href="https://github.com/primehunter326" target="_blank">Evan Yandell</a> set out to create a website called "School Me", a web application that allowed prospective Vermont residents to quickly examine data about Vermont schools, such as enrollment, graduataion rates, NECAP scores and more, all displayed within a google map with custom data filtration. <a href="https://github.com/smacewan101/School-Me" target="_blank">Github Link</a>
 				</p>
 			</div>
 
 			<div class='project'>
-				<h4>Papyrus [ongoing]</h4>
-				<p>Papyrus is a text editor written in Python using the PyQt library for its GUI. It has basic new, open, save and close functions, as well as copy and paste. I'm currently implementing a python syntax highlighter module as well, extended from QtSyntaxHighlighter. <a href="http://github.com/scperkins/Papyrus">Github Link</a></p>
+				<h4>Papyrus</h4>
+				<p>Papyrus is a basic text editor written in Python using the PyQt library for its GUI. It has basic new, open, save and close functions, as well as copy and paste. It includes a python syntax highlighter module as well, extended from QtSyntaxHighlighter. <a href="http://github.com/scperkins/Papyrus" target="_blank">Github Link</a></p>
 			</div>
 
 			<div class='project'>
-				<h4>Gmail Notifier [Currently ongoing]</h4>
-				<p>A simple program written in Python for Ubuntu that runs as a background process to check for Unread messages on the user's Gmail account. Using Google's atom feed, messages are collected and parsed. With the final version of the program I hope to incorporate Ubuntu's <a href="https://wiki.ubuntu.com/NotifyOSD">NotifyOSD</a> to display unread message titles and summaries. <a href="http://github.com/scperkins/gmail-Notify">Github link</a></p>
+				<h4>Gmail Notifier</h4>
+				<p>A simple program written in Python for Ubuntu that runs as a background process to check for Unread messages on the user's Gmail account. Using Google's atom feed, messages are collected and parsed. With the final version of the program I have incorporated Ubuntu's <a href="https://wiki.ubuntu.com/NotifyOSD" target="_blank">NotifyOSD</a> to display unread message titles and summaries. <a href="http://github.com/scperkins/gmail-Notify">Github link</a></p>
 
 				<a data-toggle="modal" href="#myModal3"><img src="/pics/noMail.png" class="img-thumbnail" height="140" width="140"></a>
 				<a data-toggle="modal" href="#myModal4"><img src="/pics/mail.png" class="img-thumbnail" height="140" width="140"></a>
@@ -76,7 +86,7 @@ layout: default
 
 			<div class='project'>
 				<h4>Novelty Bubble Sort Script</h4>
-				<p>A Python script that generates user-specified-length array of random numbers. The array is witten to a text file, then read back in to the script and sorted using the bubble sort algorithm. When the algorithm is complete, it writes the sorted array to a new text file. <a href="http://github.com/scperkins/bubbleSort">Github link</a></p> 
+				<p>A Python script that generates user-specified-length array of random numbers. The array is witten to a text file, then read back in to the script and sorted using the bubble sort algorithm. When the algorithm is complete, it writes the sorted array to a new text file. <a href="http://github.com/scperkins/bubbleSort" target="_blank">Github link</a></p> 
 
 				 <!-- image trigger modal -->
 				  <a data-toggle="modal" href="#myModal"><img src="/pics/bubbleSort1.png" class="img-thumbnail" height="140" width="140"></a>
