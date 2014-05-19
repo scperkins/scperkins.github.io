@@ -46,19 +46,13 @@ body {
 	color: white;
 }
 
-.jumbotron {
-  background-image: url("/img/banner5.jpg");
-  height: 300px;
-}
-
-/*.bs-header {
+.bs-header {
   background-image: url("/img/banner5.jpg");
   width: 100%; 
   background-repeat: no-repeat;
   background-position: center;
-  height: 300px;
-  
-}*/
+  height: 300px; 
+}
 
 /*.bs-header .img {
   height: 300px;
