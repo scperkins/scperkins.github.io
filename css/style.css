@@ -48,6 +48,8 @@ body {
 
 .bs-header {
   background-image: url("/img/banner5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 300px;
   
 }
