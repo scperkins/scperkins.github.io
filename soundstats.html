@@ -20,6 +20,11 @@ layout: default
 	</tr>
 	</tbody>
 	</table>
+	
+	<form class='form-group'>
+		<input type="text" id="enterURL"  placeholder="Enter the url for a user..."> 
+	</form>
+	
 	</div> <!--home content -->
 	</div> <!--container -->
 </div> <!--wrap -->	
@@ -40,6 +45,12 @@ SC.connect(function() {
      $("#fullName").text(followers[0].full_name);
      $("#userName").text(followers[0].username);
      $("#followersCount").text(followers[0].followers_count); 
+  });
+
+  SC.get('/resolve', {
+     var address = document.getElementByID("enterURL");
+     url: address}, function(user) {
+     console.log(user.id);	
   });
 });
 
