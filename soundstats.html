@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div id="wrap">
+	<div class="container">
+	
+	<table class="table-striped">
+	<thead>
+	<tr>
+		<th>Full Name </th>
+		<th>User Name </th>
+		<th>Follower Count </th>		
+	</tr>
+	</thead>
+	<tr>
+	<tbody>
+		<td id="fullName"> </td>
+		<td id="userName"> </td>
+		<td id="followersCount"> </td>
+	</tr>
+	</tbody>
+	</table>
+	</div> <!--container -->
+</div> <!--wrap -->	
+</body>
+<script src="http://connect.soundcloud.com/sdk.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+// initialize client with app credentials
+SC.initialize({
+  client_id: 'a8c050a0bef85631f18cf0dac8f74c4f',
+  redirect_uri: 'http://localhost:4000/callback.html'
+});
+
+// intiate auth popup
+SC.connect(function() {
+  SC.get('/me/followers', function(followers) {
+     console.log(followers[0]);
+     $("#fullName").text(followers[0].full_name);
+     $("#userName").text(followers[0].username);
+     $("#followersCount").text(followers[0].followers_count); 
+  });
+});
+
+
+
+</script>
+</html>
+
