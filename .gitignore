@@ -1,2 +1,6 @@
 scperkins.github.io/_site/
 dev-scperkins.github.io/_site/
+_site/
+*swp
+*.swp
+*.swo
