@@ -4,7 +4,7 @@ layout: default
 <div id="wrap">
 	<div class="container">
 	<div class="soundstats">	
-	<table class="table table-striped table-condensed">
+	<table class="table table-striped table-condensed" id="mytable">
 	<thead>
 	<tr>
 		<th>Full Name </th>
@@ -41,20 +41,21 @@ SC.initialize({
 // intiate auth popup
 SC.connect(function() {
   SC.get('/me/followers', function(followers) {
-     console.log(followers[0]);
-     $("#fullName").text(followers[0].full_name);
-     $("#userName").text(followers[0].username);
-     $("#followersCount").text(followers[0].followers_count); 
+     var follower = followers[0];
+     $("#fullName").text(follower.full_name);
+     $("#userName").text(follower.username);
+     $("#followersCount").text(follower.followers_count); 
+  });
+  	
+  SC.get('/users/greyhatmusic/followers', function(followers){
+     	for (i=0; i<followers.length; i++) {
+	    if (followers[i].followers_count > 10000) {
+	    	console.log(followers[i]);
+	    }
+	}
   });
 
-  SC.get('/resolve', {
-     var address = document.getElementByID("enterURL");
-     url: address}, function(user) {
-     console.log(user.id);	
-  });
 });
-
-
 
 </script>
 </html>
