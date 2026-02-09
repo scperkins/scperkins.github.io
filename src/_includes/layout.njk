@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} | {% endif %}Sean Perkins</title>
+  <link rel="stylesheet" href="{{ '/css/site.css' | url }}">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="{{ '/' | url }}">Home</a>
+      <a href="{{ '/blog/' | url }}">Blog</a>
+    </nav>
+  </header>
+  <main class="main">
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer">
+    <p>&copy; {{ "" | currentYear }} Sean Perkins</p>
+  </footer>
+</body>
+</html>
